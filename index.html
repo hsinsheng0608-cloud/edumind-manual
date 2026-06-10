@@ -84,14 +84,24 @@
       <h3>1. 登入與工作台</h3>
       <div class="step"><div class="num">1</div><div>輸入教師帳號密碼登入，自動進入「數據儀表板」（教材數、修課人數、學生發問次數）。</div></div>
 
-      <h3>2. 課程與教材管理（AI 知識庫）</h3>
-      <div class="step"><div class="num">1</div><div>左側「我的課程」查看課程清單。</div></div>
-      <div class="step"><div class="num">2</div><div>「教材管理」上傳 PDF / DOCX / PPTX / XLSX，系統自動建立 AI 可檢索的知識庫。</div></div>
-      <div class="step"><div class="num">3</div><div>教材狀態顯示「READY」即完成。</div></div>
+      <h3>2. 建立課程（一條龍：課程＋教材＋問答一次完成）</h3>
+      <div class="step"><div class="num">1</div><div>「我的課程」→ 右上「<b>＋ 建立新課程</b>」，填課程名稱、描述。</div></div>
+      <div class="step"><div class="num">2</div><div>表單最下方可<b>直接附上教材檔</b>（PDF / Word / PPT / Excel，選填）。</div></div>
+      <div class="step"><div class="num">3</div><div>按「建立」後系統全自動：上傳教材 → 建立 AI 索引 → <b>AI 自動從教材生成約 8 筆課後問答</b>。完成後學生的「課業問答」立刻有內容，老師不需再做任何事。</div></div>
 
-      <h3>3. 問答管理（課業問答題庫）</h3>
-      <div class="step"><div class="num">1</div><div>「問答管理」→「新增問答」，填入<b>課程</b>、<b>分類</b>、<b>問題</b>、<b>答案</b>。</div></div>
-      <div class="step"><div class="num">2</div><div>建立後，學生會在「<b>課業問答</b>」用關鍵字搜尋或點分類看到（點開顯示答案與重點摘要）。</div></div>
+      <h3>3. 課程管理（編輯 / 教材 / 刪除）</h3>
+      <div class="step"><div class="num">1</div><div>每張課程卡的「<b>管理</b>」按鈕 → 彈窗可：修改名稱描述、查看教材清單、<b>上傳新教材</b>、<b>套用其他課程的既有教材</b>（移轉）、AI 生成課後問答、<b>刪除課程</b>（教材與選課紀錄一併刪除）。</div></div>
+      <div class="step"><div class="num">2</div><div>課程卡右上顯示「<b>X 位學生</b>」＝已加入人數（學生自助加入後即時反映）。</div></div>
+
+      <h3>4. 教材管理</h3>
+      <div class="step"><div class="num">1</div><div>「教材管理」依課程分頁上傳 / 檢視教材。上傳後卡片狀態依序顯示：<br>
+        <span class="pill">建立索引中…</span><span class="pill">已就緒 (N chunks)</span><span class="pill">AI 整理問答中…</span><span class="pill">問答 N 筆</span><br>
+        若顯示紅色「問答生成失敗」，滑鼠移上可看原因，可至問答管理手動補生成。</div></div>
+      <div class="step"><div class="num">2</div><div>滑鼠移到教材卡片：👁 <b>預覽</b>（PDF 直接開新分頁）、⬇ <b>下載原始檔</b>、🗑 <b>刪除</b>（連同 AI 索引一併移除）。</div></div>
+
+      <h3>5. 問答管理（課業問答題庫）</h3>
+      <div class="step"><div class="num">1</div><div><b>✨ AI 從教材生成</b>：上方選定課程 → 按綠色「AI 從教材生成」→ 輸入筆數（1-30）→ AI 讀該課程教材自動出題寫入。</div></div>
+      <div class="step"><div class="num">2</div><div>「新增問答」可手動逐筆建立；所有問答（含 AI 生成）都可逐筆<b>編輯 / 刪除</b>。</div></div>
       <div class="step"><div class="num">3</div><div>同一批問答也會自動成為「<b>測驗系統</b>」的考題來源。</div></div>
       <p style="margin-top:8px"><b>「課程」欄位決定學生在哪看得到：</b></p>
       <div class="tablewrap"><table>
@@ -100,16 +110,19 @@
         <tr><td>留空（通用）</td><td>學生在「課業問答」<b>未指定課程</b>時看到</td></tr>
       </table></div>
 
-      <h3>4. 眼鏡素材管理</h3>
+      <h3>6. 眼鏡素材管理</h3>
       <div class="step"><div class="num">1</div><div>「眼鏡素材管理」→「新增品項」，填名稱、類型、適合臉型。</div></div>
-      <div class="step"><div class="num">2</div><div>上傳眼鏡圖片，勾選「<b>上傳時自動處理</b>」可變成乾淨的試戴素材。</div></div>
-      <div class="step"><div class="num">3</div><div>上架後學生在「臉型眼鏡推薦」與 AR 試戴可選用。</div></div>
+      <div class="step"><div class="num">2</div><div>上傳眼鏡圖片，勾選「<b>上傳時自動處理</b>」可變成乾淨的試戴素材（圖檔存於資料庫，系統更新不會遺失）。</div></div>
+      <div class="step"><div class="num">3</div><div>上架後學生在「臉型眼鏡推薦」與 AR 試戴可選用，AI 助教推薦眼鏡也只會從這裡的款式挑選。</div></div>
       <div class="note">建議拍/選眼鏡<b>平放、背景單純</b>的照片，效果最好。</div>
 
-      <h3>5. AR 練習報表</h3>
-      <p>查看每位學生的 AR 使用狀況與視光量測數據。</p>
+      <h3>7. 學習狀況（學生監測與預警）</h3>
+      <div class="step"><div class="num">1</div><div>左側「<b>學習狀況</b>」（或儀表板的 📈 快速操作）→ 每位學生一列：最後活動時間、AI 提問數、測驗次數與正確率、AR 練習完成數、修課數。</div></div>
+      <div class="step"><div class="num">2</div><div>自動預警：<span class="pill">🟢 正常</span><span class="pill" style="background:#fffbeb;color:#92400e;border-color:#fde68a">🟡 測驗低分（3次以上且正確率&lt;60%）</span><span class="pill" style="background:#fef2f2;color:#991b1b;border-color:#fecaca">🔴 超過 7 天未活動</span></div></div>
+      <div class="step"><div class="num">3</div><div><b>點任一學生列</b>展開明細：最近提問內容、測驗逐題對錯、AR 練習紀錄。</div></div>
+      <div class="note">儀表板的「最新發問」「AI 問答趨勢」來自學生在<b>課程內</b>的提問；AR 助教的提問不列入。</div>
 
-      <h3>6. 用戶管理</h3>
+      <h3>8. 用戶管理</h3>
       <p>查看學生帳號與每日用量，可 Excel 批次匯入或個別新增帳號。</p>
     </div>
   </section>
@@ -119,22 +132,32 @@
     <div class="card">
       <h2>學生操作說明</h2>
 
-      <h3>1. AR 眼鏡 / 隱形眼鏡試戴</h3>
+      <h3>1. 加入課程（第一次使用先做這個）</h3>
+      <div class="step"><div class="num">1</div><div>登入後到「<b>我的課程</b>」，下方「<b>可加入的課程</b>」列出老師開放的課程（含老師姓名與人數）。</div></div>
+      <div class="step"><div class="num">2</div><div>點綠色「<b>加入課程</b>」即完成選課，課程卡會移到上方「我的課程」。</div></div>
+      <div class="step"><div class="num">3</div><div>點「進入該課程」即可使用該課程的課業問答 AI 助教。</div></div>
+
+      <h3>2. AR 眼鏡 / 隱形眼鏡試戴</h3>
       <div class="step"><div class="num">1</div><div>點「AR 模擬練習」，允許瀏覽器使用攝影機。</div></div>
-      <div class="step"><div class="num">2</div><div>上方切換「眼鏡 / 隱形眼鏡」並選款式，下方滑桿調整大小。</div></div>
-      <div class="step"><div class="num">3</div><div>戴上後左下「視光量測數據」自動顯示：<br>
+      <div class="step"><div class="num">2</div><div>上方切換「眼鏡 / 隱形眼鏡」並選款式；滑桿調整<b>大小</b>，眼鏡模式另有<b>高低位置</b>滑桿微調配戴位置；切換鈕旁的「∨」可收合款式列。</div></div>
+      <div class="step"><div class="num">3</div><div>戴上後「視光量測數據」自動顯示：<br>
         <span class="pill">眼鏡：瞳距 PD、建議鏡框寬</span><span class="pill">隱眼：虹膜直徑 HVID、建議鏡片直徑</span></div></div>
-      <div class="step"><div class="num">4</div><div>頂部：<b>試戴我的眼鏡</b>（拍自己的眼鏡）、<b>儲存試戴照</b>（下載畫面）、<b>拍眼鏡模式</b>（隱藏款式列）。</div></div>
-      <div class="step"><div class="num">5</div><div>右側「AI 助教」可打字或語音（最長 30 秒）即時提問。</div></div>
-      <div class="note">手機：點左下「📋」展開款式面板，右下「💬」展開 AI 助教。</div>
+      <div class="step"><div class="num">4</div><div>上排常用：📊 視光數據、📷 <b>試戴我的眼鏡</b>（拍自己的眼鏡，自動去背套用）、😊 臉型推薦、⛶ 全螢幕；其餘收在「<b>⋯ 更多</b>」（我的眼鏡收藏、拍眼鏡模式、儲存試戴照、我的試戴照、操作導覽）。</div></div>
+      <div class="step"><div class="num">5</div><div>畫面右側<b>一鍵淨空鈕</b>（眼睛圖示）：點一下隱藏所有面板只留鏡頭畫面（適合截圖／展示），再點一下還原。</div></div>
+      <div class="note">手機：點左下「📋」展開款式面板，右下「💬」展開 AI 助教；點面板標題可縮小／收合。</div>
 
-      <h3>2. 課業問答</h3>
-      <p>選課程後用關鍵字搜尋（如：OK鏡、散光），點問題展開詳解，上方💡顯示重點摘要。</p>
+      <h3>3. AI 助教（會自動辨識你的臉型）</h3>
+      <div class="step"><div class="num">1</div><div>打字或語音（最長 30 秒）提問；鏡頭會<b>自動辨識你的臉型與瞳距</b>，AI 回答會直接引用。</div></div>
+      <div class="step"><div class="num">2</div><div>問「<b>我適合什麼眼鏡？</b>」→ AI 從現有款式推薦，回覆下方出現「<b>👓 試戴</b>」按鈕，<b>點一下立刻戴上</b>，面板自動收合讓你看效果。</div></div>
+      <div class="step"><div class="num">3</div><div>對話框右上 ⛶ 可放大成全螢幕對話，點標題列逐級縮回。</div></div>
 
-      <h3>3. 臉型眼鏡推薦</h3>
-      <p>選擇自己的臉型，系統推薦最適合的眼鏡 / 隱形眼鏡並說明原因，點選後回 AR 試戴。</p>
+      <h3>4. 課業問答</h3>
+      <p>選課程後用關鍵字搜尋（如：OK鏡、散光），點問題展開詳解。題庫由老師上傳教材後 AI 自動生成，也可直接向 AI 對話提問（會引用教材並附資料來源）。</p>
 
-      <h3>4. 測驗系統</h3>
+      <h3>5. 臉型眼鏡推薦</h3>
+      <p>打開「臉型推薦」時系統會<b>用鏡頭自動辨識並選好你的臉型</b>（可手動更改），推薦最適合的款式並說明原因，點選後回 AR 試戴。</p>
+
+      <h3>6. 測驗系統</h3>
       <p>選分類與題數作答，每題確認後即時對錯，結束顯示得分與回顧。</p>
     </div>
   </section>
@@ -145,7 +168,10 @@
       <h2>注意事項</h2>
       <ul>
         <li>AR 試戴與語音請使用 <b>Chrome / Safari</b>；攝影機需在 HTTPS 或允許權限下才會啟動。</li>
-        <li>「試戴自己的眼鏡」請拍<b>只有眼鏡、平放、背景單純</b>的照片，勿自拍臉。</li>
+        <li>「試戴自己的眼鏡」請拍<b>只有眼鏡、平放、背景單純</b>的照片，勿自拍臉（拍到臉系統會擋下並提醒）。</li>
+        <li>手機上傳眼鏡照會<b>自動縮圖與使用輕量模型</b>，首次使用需下載 AI 模型請耐心等候進度。</li>
+        <li>第一次打開系統若<b>載入較慢（約 10–30 秒）</b>屬正常（雲端服務喚醒中），之後即恢復流暢。</li>
+        <li>上傳教材後「AI 整理問答中…」約需 1 分鐘；若顯示生成失敗，可至「問答管理」按「✨ AI 從教材生成」重試。</li>
         <li>AI 即時問答有每人每日次數上限，避免短時間大量同時提問。</li>
         <li>展示 / 招生請用 <code>demo</code> 帳號，方便老師統一管理與清除資料。</li>
         <li>建議師生首次登入後<b>更改預設密碼</b>。</li>
